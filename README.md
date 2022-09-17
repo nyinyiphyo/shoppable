@@ -1,6 +1,6 @@
 ## Introduction
 
-Group assignment repository to convert Figma to boostrap as Group project.
+Group assignment repository to convert Figma to boostrap for Group 1.
 
 ## Usage
 
