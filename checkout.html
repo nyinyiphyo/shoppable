@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Shoppable</title>
+    </head>
+    <body>
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-container">
+                    <div class="top-bar-info">
+                        FREE SHIPING world wide for all orders over&nbsp;
+                        <span>$150</span>
+                    </div>
+                    <div class="top-bar-info-right">
+                        <div>Track your order</div>
+                        <div>English</div>
+                        <div>USD</div>
+                        <div>
+                            <i class="bi bi-facebook" style="font-size: 1rem; color: #f56f5c;"></i>
+                            <i class="bi bi-twitter" style="font-size: 1rem; color: white;padding-left: 0.4rem;"></i>
+                            <i class="bi bi-instagram" style="font-size: 1rem; color: white;padding-left: 0.4rem;"></i>
+                            <i class="bi bi-pinterest pl-1" style="font-size: 1rem; color: white;padding-left: 0.4rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/svg/logo.svg" alt="">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <div class="me-2 p-2">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <div class="me-2 p-2">
+                            <i class="bi bi-person-plus"></i>
+                        </div>
+                        <div class="me-2 p-2">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <div class="p-2">
+                            <i class="bi bi-bag"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div class="banner">
+        <img src="./img/checkout-banner.jpg" class="img-fluid">
+    </div>
+    <section class="bg-white pt-2">
+        <div class="container pt-5">
+            <div class="alert alert-secondary alert-message mb-0" role="alert">
+                <i class="bi bi-info-circle" style="padding-right: 1rem;"></i>
+                <span>Have a cupon?</span>
+                <a href="#" class="text-primary">Click here to enter your code</a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-2">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="mb-6 mb-lg-6 col-lg-6">
+                    <h3>Billing Information</h3>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="firstName"
+                                placeholder="Your first name"
+                            >
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="lastName"
+                                placeholder="Your last name"
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="companyName" class="form-label">Company name (optional)*</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="companyName"
+                                placeholder="Name"
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="email" class="form-label">Email</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="youremail@example.com"
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="tel" class="form-label">Telephone*</label>
+                            <input
+                                type="tel"
+                                class="form-control"
+                                id="tel"
+                                placeholder="+880"
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="country" class="form-label">Country*</label>
+                            <select class="form-control" id="country">
+                                <option selected>Select ...</option>
+                                <option value="1">Myanmar</option>
+                                <option value="2">Singapore</option>
+                                <option value="3">Japan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-1 mb-lg-3 col-lg-12">
+                            <label for="streetAddress" class="form-label">Street Address*</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="streetAddress"
+                                placeholder="House and street name..."
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="apartment"
+                                placeholder="Apartment, suite, unit, etc (optional) "
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="town" class="form-label">Town/City*</label>
+                            <select class="form-control" id="town">
+                                <option selected>Select ...</option>
+                                <option value="1">Yangon</option>
+                                <option value="2">Mandalay</option>
+                                <option value="3">Mawlamyine</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 mb-lg-3 col-lg-12">
+                            <label for="companyName" class="form-label">Post Code</label>
+                            <input
+                                type="postCode"
+                                class="form-control"
+                                id="postCode"
+                                placeholder="code"
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 mb-lg-6 mt-4 mt-sm-4 mt-md-4 mt-lg-0 col-lg-6">
+                    <h3>Additional Information</h3>
+                    <div class="row">
+                        <div class="col-lg-12 mb-3">
+                            <label for="orderNotes" class="form-label">Order notes (optional)*</label>
+                            <textarea class="form-control" id="orderNotes" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-2">
+        <div class="container pt-4">
+            <h3 class="mb-4">Your Order</h3>
+            <table class="table table-bordered mb-0">
+                <thead>
+                    <tr>
+                        <th class="text-center">Image</th>
+                        <th class="text-center">Product Name</th>
+                        <th class="text-center">Price Unit</th>
+                        <th class="text-center">Quantity</th>
+                        <th class="text-center">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">
+                            <img src="./img/t-shirt.jpg" width="150px" class="img-fluid">
+                        </td>
+                        <td class="text-center align-middle">T-Shirt Blouse Sleeve</td>
+                        <td class="text-center align-middle">$125.65</td>
+                        <td class="align-middle">
+                            <div class="row">
+                                <div class="mb-3 mb-lg-3 col-lg-4 d-flex justify-content-end">
+                                    <button
+                                        type="button"
+                                        class="btn btn-light border-default"
+                                        name="decrease"
+                                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
+                                    >-</button>
+                                </div>
+                                <div class="mb-3 mb-lg-3 col-lg-4">
+                                    <input
+                                        type="text"
+                                        name="quantity"
+                                        class="form-control text-center"
+                                        id="quantity"
+                                        placeholder="1"
+                                        width="20px"
+                                    >
+                                </div>
+                                <div class="mb-3 mb-lg-3 col-lg-4 d-flex justify-content-start">
+                                    <button
+                                        type="button"
+                                        class="btn btn-light border-default"
+                                        name="increase"
+                                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
+                                    >+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="text-center align-middle">$125.65</td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">Subtotal</td>
+                        <td colspan="3"></td>
+                        <td class="text-center align-middle">$125.65</td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">Total</td>
+                        <td colspan="3"></td>
+                        <td class="text-center align-middle">$125.65</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="bg-white pt-4">
+        <div class="container pt-2">
+            <h4>
+                <i class="bi bi-check-square-fill"></i>
+                Direct bank transfer
+            </h4>
+            <div class="payment-method-description">
+                Make your payment directly to your bank account. Please use your Order ID as the payment reference. Your order 
+                will not be shipped until the funds have cleared in our account.
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-4">
+        <div class="container pt-2">
+            <h4>
+                <i class="bi bi-check-square-fill"></i>
+                Check payment
+            </h4>
+            <div class="payment-method-description">
+                Please send a check to Store Name, Store Street, Store Town, Store State / Country , Store Poscode.
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-4">
+        <div class="container pt-2">
+            <h4>
+                <i class="bi bi-check-square-fill"></i>
+                Cash on Delivery
+            </h4>
+            <div class="payment-method-description">
+                Pay with cash upon delivery.
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-2">
+        <div class="container pt-3">
+            Your personal data will be used to process your order, support your experience throughout this website, and for other purpose described in our privacy policy.
+        </div>
+    </section>
+    <section class="bg-white pt-2">
+        <div class="container pt-3 pb-5">
+            <div class="pb-5">
+                <button type="button" class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light pt-2">
+        <div class="container pt-5">
+            <div class="row justify-content-between d-flex align-items-center">
+                <div class="col-12 mb-5 col-lg-5">
+                    <h2 class="mb-2 subscribe-newsletter-title">Subscribe to Our Newsletter!</h2>
+                    <p class="text-black-50 mb-0 subscribe-newsletter-info">Authoritatively morph 24/7 potentialities with error-freepartnerships. Objectively engineer multimedia.</p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            class="form-control border-0 rounded-0 px-4 subscription-input"
+                            placeholder="Enter your email"
+                            aria-label="Recipient's username"
+                            aria-describedby="basic-addon2"
+                        >
+                        <span class="input-group-text border-0 rounded-0 bg-primary text-white subscribe-button" id="basic-addon2">Subscribe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="divider"></div>
+    </div>
+    <section class="bg-light pt-4 mb-4">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 mb-5 mb-lg-2 col-lg-3">
+                    <img src="./img/svg/logo.svg" alt="" class="mb-4">
+                    <div class="mb-1">
+                        <span class="text-grey opacity-50 ms-2">progressively optimize effective ideas before turnkey process    improventemnts. proacitively disseminate</span>
+                    </div>
+                    <div class="">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter" style="padding-left: 0.4rem;"></i>
+                        <i class="bi bi-instagram" style="padding-left: 0.4rem;"></i>
+                        <i class="bi bi-pinterest" style="padding-left: 0.4rem;"></i>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 mb-lg-2 col-lg-2">
+                    <h3 class="mb-3">My Account</h3>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-primary opacity-50 ms-2">My Account</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">View Cart</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Wishlist</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Compare</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">New Products</span>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 mb-lg-2 col-lg-2">
+                    <h3 class="mb-3">Support</h3>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Help</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Contact Us</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Feedback</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Customer Service</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Store Location</span>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 mb-lg-2 col-lg-2">
+                    <h3 class="mb-3">Shop</h3>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Man's Shopping</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Women's Shopping</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Kid's Shopping</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">Discounts</span>
+                    </div>
+                    <div class="mb-1">
+                        <i class="bi bi-chevron-right"></i>
+                        <span class="text-grey opacity-50 ms-2">New Arriveis</span>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 mb-lg-2 col-lg-2">
+                    <h3 class="mb-3">Contact Us</h3>
+                    <div class="mb-1 d-flex">
+                        <i class="bi bi-geo-alt-fill" style="padding-right: 0.4rem;color: #f56f5c"></i>
+                        <span class="text-grey opacity-50 ms-2">D-48,Road No-5/1,South Banasree Dhaka,Bangladesh</span>
+                    </div>
+                    <div class="mb-1 d-flex align-items-center">
+                        <i class="bi bi-telephone-fill" style="padding-right: 0.4rem;color: #f56f5c"></i>
+                        <span class="text-grey opacity-50 ms-2">+8801760008878</span>
+                    </div>
+                    <div class="mb-1 d-flex align-items-center">
+                        <i class="bi bi-envelope-fill" style="padding-right: 0.4rem;color: #f56f5c"></i>
+                        <span class="text-grey opacity-50 ms-2">helloshariffaysal@gmail.com</span>
+                    </div>
+                    <div class="mb-1 d-flex align-items-center">
+                        <i class="bi bi-google" style="padding-right: 0.4rem;color: #f56f5c"></i>
+                        <span class="text-grey opacity-50 ms-2">sharffaysal.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="divider"></div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row aligin-items-center justify-content-between d-flex align-items-center">
+                <div class="d-flex col-12 col-lg-12">
+                    <div class="footer-copyright">
+                        <span class="text-secondary text-black-50">&copy; 2022 All Rights Reserved</span>
+                        <span class="text-primary">Shoppable</span>
+                        <span class="text-secondary"> By</span>
+                        <span class="text-primary">Sharif Faysal.</span>
+                    </div>
+                    <div class="d-flex" style="margin-left: auto">
+                        <div class="p-1">
+                            <img src="./img/svg/paypal.svg" alt="Paypal">
+                        </div>
+                        <div class="p-1">
+                            <img src="./img/svg/master.svg" alt="Master Card">
+                        </div>
+                        <div class="p-1">
+                            <img src="./img/svg/visa.svg" alt="VISA Card">
+                        </div>
+                        <div class="p-1">
+                            <img src="./img/svg/jcb.svg" alt="JCB Card">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="assets/js/starter.js"></script>
+</body>
+</html>
